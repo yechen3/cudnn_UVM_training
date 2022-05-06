@@ -1,0 +1,206 @@
+== MNIST training with CUDNN ==
+[TRAIN]
+loading ./dataset/train-images-idx3-ubyte
+loaded 60000 items..
+==43160== NVPROF is profiling process 43160, command: ./mp_resnet
+.. model Configuration ..
+CUDA: conv2d
+CUDA: fbn
+CUDA: relu
+CUDA: pool
+CUDA: conv2d_1
+CUDA: fbn_1
+CUDA: conv2d_2
+CUDA: fbn_2
+CUDA: relu_1
+CUDA: conv2d_3
+CUDA: fbn_3
+CUDA: relu_2
+CUDA: conv2d_4
+CUDA: fbn_4
+CUDA: add_1
+CUDA: relu_3
+CUDA: conv2d_5
+CUDA: fbn_5
+CUDA: relu_4
+CUDA: conv2d_6
+CUDA: fbn_6
+CUDA: relu_5
+CUDA: conv2d_7
+CUDA: fbn_7
+CUDA: add_2
+CUDA: relu_6
+CUDA: conv2d_8
+CUDA: fbn_8
+CUDA: relu_7
+CUDA: conv2d_9
+CUDA: fbn_9
+CUDA: relu_8
+CUDA: conv2d_10
+CUDA: fbn_10
+CUDA: add_3
+CUDA: relu_9
+CUDA: conv2d_11
+CUDA: fbn_11
+CUDA: conv2d_12
+CUDA: fbn_12
+CUDA: relu_10
+CUDA: conv2d_13
+CUDA: fbn_13
+CUDA: relu_11
+CUDA: conv2d_14
+CUDA: fbn_14
+CUDA: add_4
+CUDA: relu_12
+CUDA: conv2d_15
+CUDA: fbn_15
+CUDA: relu_13
+CUDA: conv2d_16
+CUDA: fbn_16
+CUDA: relu_14
+CUDA: conv2d_17
+CUDA: fbn_17
+CUDA: add_5
+CUDA: relu_15
+CUDA: conv2d_18
+CUDA: fbn_18
+CUDA: relu_16
+CUDA: conv2d_19
+CUDA: fbn_19
+CUDA: relu_17
+CUDA: conv2d_20
+CUDA: fbn_20
+CUDA: add_6
+CUDA: relu_18
+CUDA: conv2d_21
+CUDA: fbn_21
+CUDA: relu_19
+CUDA: conv2d_22
+CUDA: fbn_22
+CUDA: relu_20
+CUDA: conv2d_23
+CUDA: fbn_23
+CUDA: add_7
+CUDA: relu_21
+CUDA: conv2d_24
+CUDA: fbn_24
+CUDA: relu_22
+CUDA: conv2d_25
+CUDA: fbn_25
+CUDA: relu_23
+CUDA: conv2d_26
+CUDA: fbn_26
+CUDA: add_8
+CUDA: relu_24
+CUDA: conv2d_27
+CUDA: fbn_27
+CUDA: relu_25
+CUDA: conv2d_28
+CUDA: fbn_28
+CUDA: relu_26
+CUDA: conv2d_29
+CUDA: fbn_29
+CUDA: add_9
+CUDA: relu_27
+.. model Configuration ..
+CUDA: conv2d_30
+CUDA: fbn_30
+CUDA: conv2d_31
+CUDA: fbn_31
+CUDA: relu_28
+CUDA: conv2d_32
+CUDA: fbn_32
+CUDA: relu_29
+CUDA: conv2d_33
+CUDA: fbn_33
+CUDA: add_10
+CUDA: relu_30
+CUDA: conv2d_34
+CUDA: fbn_34
+CUDA: relu_31
+CUDA: conv2d_35
+CUDA: fbn_35
+CUDA: relu_32
+CUDA: conv2d_36
+CUDA: fbn_36
+CUDA: add_11
+CUDA: relu_33
+CUDA: conv2d_37
+CUDA: fbn_37
+CUDA: relu_34
+CUDA: conv2d_38
+CUDA: fbn_38
+CUDA: relu_35
+CUDA: conv2d_39
+CUDA: fbn_39
+CUDA: add_12
+CUDA: relu_36
+CUDA: conv2d_40
+CUDA: fbn_40
+CUDA: relu_37
+CUDA: conv2d_41
+CUDA: fbn_41
+CUDA: relu_38
+CUDA: conv2d_42
+CUDA: fbn_42
+CUDA: add_13
+CUDA: relu_39
+CUDA: conv2d_43
+CUDA: fbn_43
+CUDA: conv2d_44
+CUDA: fbn_44
+CUDA: relu_40
+CUDA: conv2d_45
+CUDA: fbn_45
+CUDA: relu_41
+CUDA: conv2d_46
+CUDA: fbn_46
+CUDA: add_14
+CUDA: relu_42
+CUDA: conv2d_47
+CUDA: fbn_47
+CUDA: relu_43
+CUDA: conv2d_48
+CUDA: fbn_48
+CUDA: relu_44
+CUDA: conv2d_49
+CUDA: fbn_49
+CUDA: add_15
+CUDA: relu_45
+CUDA: conv2d_50
+CUDA: fbn_50
+CUDA: relu_46
+CUDA: conv2d_51
+CUDA: fbn_51
+CUDA: relu_47
+CUDA: conv2d_52
+CUDA: fbn_52
+CUDA: add_16
+CUDA: relu_48
+CUDA: dense
+CUDA: softmax
+.. initialized conv2d layer ..
+.. initialized fbn layer ..
+.. initialized conv2d_1 layer ..
+.. initialized fbn_1 layer ..
+.. initialized conv2d_2 layer ..
+.. initialized fbn_2 layer ..
+.. initialized conv2d_3 layer ..
+.. initialized fbn_3 layer ..
+.. initialized conv2d_4 layer ..
+.. initialized fbn_4 layer ..
+.. initialized conv2d_5 layer ..
+.. initialized fbn_5 layer ..
+.. initialized conv2d_6 layer ..
+.. initialized fbn_6 layer ..
+.. initialized conv2d_7 layer ..
+.. initialized fbn_7 layer ..
+.. initialized conv2d_8 layer ..
+.. initialized fbn_8 layer ..
+.. initialized conv2d_9 layer ..
+==43160== Profiling application: ./mp_resnet
+==43160== Profiling result:
+No kernels were profiled.
+No API activities were profiled.
+==43160== Warning: Some profiling data are not recorded. Make sure cudaProfilerStop() or cuProfilerStop() is called before application exit to flush profile data.
+======== Error: Application received signal 139

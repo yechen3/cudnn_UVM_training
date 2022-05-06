@@ -1,0 +1,520 @@
+14c14
+< **dense1::weights (before update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff684200000, d:0x7ff684200000)
+---
+> **dense1::weights (before update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbac32020, d:0x7fb5f8800000)
+19c19
+< **dense1::gweights	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff685000000, d:0x7ff685000000)
+---
+> **dense1::gweights	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbb52ae50, d:0x7fb5f9000000)
+24c24
+< **dense1weights (after update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff684200000, d:0x7ff684200000)
+---
+> **dense1weights (after update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbac32020, d:0x7fb5f8800000)
+29c29
+< **dense1biases (before update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684001000, d:0x7ff684001000)
+---
+> **dense1biases (before update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc823dc0, d:0x7fb64581fe00)
+34c34
+< **dense1gbiases	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684007200, d:0x7ff684007200)
+---
+> **dense1gbiases	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc1cbc80, d:0x7fb64582ac00)
+39c39
+< **dense1biases (after update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684001000, d:0x7ff684001000)
+---
+> **dense1biases (after update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc823dc0, d:0x7fb64581fe00)
+45c45
+< **dense2::weights (before update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e00000, d:0x7ff684e00000)
+---
+> **dense2::weights (before update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc78d000, d:0x7fb610c2b200)
+50c50
+< **dense2::gweights	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e1e800, d:0x7ff684e1e800)
+---
+> **dense2::gweights	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc7a4180, d:0x7fb610c3fc00)
+55c55
+< **dense2weights (after update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e00000, d:0x7ff684e00000)
+---
+> **dense2weights (after update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc78d000, d:0x7fb610c2b200)
+60c60
+< **dense2biases (before update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e09e00, d:0x7ff684e09e00)
+---
+> **dense2biases (before update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbd300de0, d:0x7fb610c20e00)
+62,66c62,66
+< **dense2gbiases	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e28600, d:0x7ff684e28600)
+< 	0.100000	0.100000	0.100000	0.100000	0.100000	-0.900000	0.100000	0.100000	0.100000	0.100000	
+< **dense2biases (after update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e09e00, d:0x7ff684e09e00)
+< 	-0.002000	-0.002000	-0.002000	-0.002000	-0.002000	0.018000	-0.002000	-0.002000	-0.002000	-0.002000	
+< step:    0, loss: 2.303, accuracy: 0.000%
+---
+> **dense2gbiases	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbc796f30, d:0x7fb610c35c00)
+> 	0.100000	0.100000	0.100000	0.100000	0.100000	0.100000	0.100000	0.100000	0.100000	0.100000	
+> **dense2biases (after update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbd300de0, d:0x7fb610c20e00)
+> 	-0.002000	-0.002000	-0.002000	-0.002000	-0.002000	-0.002000	-0.002000	-0.002000	-0.002000	-0.002000	
+> step:    1, loss: 0.000, accuracy: 0.000%
+68c68
+< **dense1::weights (before update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff684200000, d:0x7ff684200000)
+---
+> **dense1::weights (before update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbac32020, d:0x7fb5f8800000)
+73c73
+< **dense1::gweights	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff685000000, d:0x7ff685000000)
+---
+> **dense1::gweights	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbb52ae50, d:0x7fb5f9000000)
+78c78
+< **dense1weights (after update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff684200000, d:0x7ff684200000)
+---
+> **dense1weights (after update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbac32020, d:0x7fb5f8800000)
+83c83
+< **dense1biases (before update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684001000, d:0x7ff684001000)
+---
+> **dense1biases (before update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc823dc0, d:0x7fb64581fe00)
+88c88
+< **dense1gbiases	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684007200, d:0x7ff684007200)
+---
+> **dense1gbiases	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc1cbc80, d:0x7fb64582ac00)
+93c93
+< **dense1biases (after update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684001000, d:0x7ff684001000)
+---
+> **dense1biases (after update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc823dc0, d:0x7fb64581fe00)
+99c99
+< **dense2::weights (before update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e00000, d:0x7ff684e00000)
+---
+> **dense2::weights (before update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc78d000, d:0x7fb610c2b200)
+104c104
+< **dense2::gweights	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e1e800, d:0x7ff684e1e800)
+---
+> **dense2::gweights	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc7a4180, d:0x7fb610c3fc00)
+109c109
+< **dense2weights (after update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e00000, d:0x7ff684e00000)
+---
+> **dense2weights (after update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc78d000, d:0x7fb610c2b200)
+114,120c114,120
+< **dense2biases (before update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e09e00, d:0x7ff684e09e00)
+< 	-0.002000	-0.002000	-0.002000	-0.002000	-0.002000	0.018000	-0.002000	-0.002000	-0.002000	-0.002000	
+< **dense2gbiases	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e28600, d:0x7ff684e28600)
+< 	-0.900202	0.099798	0.099798	0.099798	0.099798	0.101814	0.099798	0.099798	0.099798	0.099798	
+< **dense2biases (after update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e09e00, d:0x7ff684e09e00)
+< 	0.016003	-0.003996	-0.003996	-0.003996	-0.003996	0.015964	-0.003996	-0.003996	-0.003996	-0.003996	
+< step:    1, loss: 2.305, accuracy: 0.000%
+---
+> **dense2biases (before update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbd300de0, d:0x7fb610c20e00)
+> 	-0.002000	-0.002000	-0.002000	-0.002000	-0.002000	-0.002000	-0.002000	-0.002000	-0.002000	-0.002000	
+> **dense2gbiases	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbc796f30, d:0x7fb610c35c00)
+> 	-0.900000	0.100000	0.100000	0.100000	0.100000	0.100000	0.100000	0.100000	0.100000	0.100000	
+> **dense2biases (after update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbd300de0, d:0x7fb610c20e00)
+> 	0.015999	-0.004000	-0.004000	-0.004000	-0.004000	-0.004000	-0.004000	-0.004000	-0.004000	-0.004000	
+> step:    2, loss: 2.303, accuracy: 100.000%
+122c122
+< **dense1::weights (before update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff684200000, d:0x7ff684200000)
+---
+> **dense1::weights (before update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbac32020, d:0x7fb5f8800000)
+127c127
+< **dense1::gweights	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff685000000, d:0x7ff685000000)
+---
+> **dense1::gweights	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbb52ae50, d:0x7fb5f9000000)
+132c132
+< **dense1weights (after update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff684200000, d:0x7ff684200000)
+---
+> **dense1weights (after update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbac32020, d:0x7fb5f8800000)
+137c137
+< **dense1biases (before update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684001000, d:0x7ff684001000)
+---
+> **dense1biases (before update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc823dc0, d:0x7fb64581fe00)
+142c142
+< **dense1gbiases	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684007200, d:0x7ff684007200)
+---
+> **dense1gbiases	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc1cbc80, d:0x7fb64582ac00)
+147c147
+< **dense1biases (after update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684001000, d:0x7ff684001000)
+---
+> **dense1biases (after update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc823dc0, d:0x7fb64581fe00)
+153c153
+< **dense2::weights (before update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e00000, d:0x7ff684e00000)
+---
+> **dense2::weights (before update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc78d000, d:0x7fb610c2b200)
+158c158
+< **dense2::gweights	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e1e800, d:0x7ff684e1e800)
+---
+> **dense2::gweights	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc7a4180, d:0x7fb610c3fc00)
+163c163
+< **dense2weights (after update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e00000, d:0x7ff684e00000)
+---
+> **dense2weights (after update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc78d000, d:0x7fb610c2b200)
+168,174c168,174
+< **dense2biases (before update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e09e00, d:0x7ff684e09e00)
+< 	0.016003	-0.003996	-0.003996	-0.003996	-0.003996	0.015964	-0.003996	-0.003996	-0.003996	-0.003996	
+< **dense2gbiases	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e28600, d:0x7ff684e28600)
+< 	0.101610	0.099598	0.099598	0.099598	-0.900402	0.101606	0.099598	0.099598	0.099598	0.099598	
+< **dense2biases (after update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e09e00, d:0x7ff684e09e00)
+< 	0.013971	-0.005988	-0.005988	-0.005988	0.014009	0.013932	-0.005988	-0.005988	-0.005988	-0.005988	
+< step:    2, loss: 2.307, accuracy: 0.000%
+---
+> **dense2biases (before update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbd300de0, d:0x7fb610c20e00)
+> 	0.015999	-0.004000	-0.004000	-0.004000	-0.004000	-0.004000	-0.004000	-0.004000	-0.004000	-0.004000	
+> **dense2gbiases	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbc796f30, d:0x7fb610c35c00)
+> 	0.101814	0.099798	0.099798	0.099798	-0.900202	0.099798	0.099798	0.099798	0.099798	0.099798	
+> **dense2biases (after update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbd300de0, d:0x7fb610c20e00)
+> 	0.013963	-0.005996	-0.005996	-0.005996	0.014001	-0.005996	-0.005996	-0.005996	-0.005996	-0.005996	
+> step:    3, loss: 2.305, accuracy: 0.000%
+176c176
+< **dense1::weights (before update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff684200000, d:0x7ff684200000)
+---
+> **dense1::weights (before update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbac32020, d:0x7fb5f8800000)
+181c181
+< **dense1::gweights	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff685000000, d:0x7ff685000000)
+---
+> **dense1::gweights	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbb52ae50, d:0x7fb5f9000000)
+186c186
+< **dense1weights (after update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff684200000, d:0x7ff684200000)
+---
+> **dense1weights (after update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbac32020, d:0x7fb5f8800000)
+191c191
+< **dense1biases (before update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684001000, d:0x7ff684001000)
+---
+> **dense1biases (before update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc823dc0, d:0x7fb64581fe00)
+196c196
+< **dense1gbiases	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684007200, d:0x7ff684007200)
+---
+> **dense1gbiases	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc1cbc80, d:0x7fb64582ac00)
+201c201
+< **dense1biases (after update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684001000, d:0x7ff684001000)
+---
+> **dense1biases (after update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc823dc0, d:0x7fb64581fe00)
+207c207
+< **dense2::weights (before update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e00000, d:0x7ff684e00000)
+---
+> **dense2::weights (before update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc78d000, d:0x7fb610c2b200)
+212c212
+< **dense2::gweights	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e1e800, d:0x7ff684e1e800)
+---
+> **dense2::gweights	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc7a4180, d:0x7fb610c3fc00)
+217c217
+< **dense2weights (after update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e00000, d:0x7ff684e00000)
+---
+> **dense2weights (after update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc78d000, d:0x7fb610c2b200)
+222,228c222,228
+< **dense2biases (before update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e09e00, d:0x7ff684e09e00)
+< 	0.013971	-0.005988	-0.005988	-0.005988	0.014009	0.013932	-0.005988	-0.005988	-0.005988	-0.005988	
+< **dense2gbiases	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e28600, d:0x7ff684e28600)
+< 	0.101403	-0.900601	0.099399	0.099399	0.101407	0.101399	0.099399	0.099399	0.099399	0.099399	
+< **dense2biases (after update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e09e00, d:0x7ff684e09e00)
+< 	0.011944	0.012019	-0.007975	-0.007975	0.011982	0.011905	-0.007975	-0.007975	-0.007975	-0.007975	
+< step:    3, loss: 2.309, accuracy: 0.000%
+---
+> **dense2biases (before update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbd300de0, d:0x7fb610c20e00)
+> 	0.013963	-0.005996	-0.005996	-0.005996	0.014001	-0.005996	-0.005996	-0.005996	-0.005996	-0.005996	
+> **dense2gbiases	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbc796f30, d:0x7fb610c35c00)
+> 	0.101606	-0.900402	0.099598	0.099598	0.101610	0.099598	0.099598	0.099598	0.099598	0.099598	
+> **dense2biases (after update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbd300de0, d:0x7fb610c20e00)
+> 	0.011932	0.012007	-0.007987	-0.007987	0.011970	-0.007987	-0.007987	-0.007987	-0.007987	-0.007987	
+> step:    4, loss: 2.307, accuracy: 0.000%
+230c230
+< **dense1::weights (before update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff684200000, d:0x7ff684200000)
+---
+> **dense1::weights (before update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbac32020, d:0x7fb5f8800000)
+235c235
+< **dense1::gweights	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff685000000, d:0x7ff685000000)
+---
+> **dense1::gweights	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbb52ae50, d:0x7fb5f9000000)
+240c240
+< **dense1weights (after update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff684200000, d:0x7ff684200000)
+---
+> **dense1weights (after update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbac32020, d:0x7fb5f8800000)
+245c245
+< **dense1biases (before update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684001000, d:0x7ff684001000)
+---
+> **dense1biases (before update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc823dc0, d:0x7fb64581fe00)
+250c250
+< **dense1gbiases	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684007200, d:0x7ff684007200)
+---
+> **dense1gbiases	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc1cbc80, d:0x7fb64582ac00)
+255c255
+< **dense1biases (after update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684001000, d:0x7ff684001000)
+---
+> **dense1biases (after update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc823dc0, d:0x7fb64581fe00)
+261c261
+< **dense2::weights (before update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e00000, d:0x7ff684e00000)
+---
+> **dense2::weights (before update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc78d000, d:0x7fb610c2b200)
+266c266
+< **dense2::gweights	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e1e800, d:0x7ff684e1e800)
+---
+> **dense2::gweights	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc7a4180, d:0x7fb610c3fc00)
+271c271
+< **dense2weights (after update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e00000, d:0x7ff684e00000)
+---
+> **dense2weights (after update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc78d000, d:0x7fb610c2b200)
+276,282c276,282
+< **dense2biases (before update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e09e00, d:0x7ff684e09e00)
+< 	0.011944	0.012019	-0.007975	-0.007975	0.011982	0.011905	-0.007975	-0.007975	-0.007975	-0.007975	
+< **dense2gbiases	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e28600, d:0x7ff684e28600)
+< 	0.101197	0.101204	0.099201	0.099201	0.101201	0.101193	0.099201	0.099201	0.099201	-0.900799	
+< **dense2biases (after update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e09e00, d:0x7ff684e09e00)
+< 	0.009921	0.009996	-0.009958	-0.009958	0.009959	0.009882	-0.009958	-0.009958	-0.009958	0.010032	
+< step:    4, loss: 2.311, accuracy: 0.000%
+---
+> **dense2biases (before update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbd300de0, d:0x7fb610c20e00)
+> 	0.011932	0.012007	-0.007987	-0.007987	0.011970	-0.007987	-0.007987	-0.007987	-0.007987	-0.007987	
+> **dense2gbiases	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbc796f30, d:0x7fb610c35c00)
+> 	0.101399	0.101406	0.099399	0.099399	0.101403	0.099399	0.099399	0.099399	0.099399	-0.900601	
+> **dense2biases (after update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbd300de0, d:0x7fb610c20e00)
+> 	0.009905	0.009980	-0.009974	-0.009974	0.009943	-0.009974	-0.009974	-0.009974	-0.009974	0.010016	
+> step:    5, loss: 2.309, accuracy: 0.000%
+284c284
+< **dense1::weights (before update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff684200000, d:0x7ff684200000)
+---
+> **dense1::weights (before update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbac32020, d:0x7fb5f8800000)
+289c289
+< **dense1::gweights	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff685000000, d:0x7ff685000000)
+---
+> **dense1::gweights	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbb52ae50, d:0x7fb5f9000000)
+294c294
+< **dense1weights (after update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff684200000, d:0x7ff684200000)
+---
+> **dense1weights (after update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbac32020, d:0x7fb5f8800000)
+299c299
+< **dense1biases (before update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684001000, d:0x7ff684001000)
+---
+> **dense1biases (before update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc823dc0, d:0x7fb64581fe00)
+304c304
+< **dense1gbiases	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684007200, d:0x7ff684007200)
+---
+> **dense1gbiases	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc1cbc80, d:0x7fb64582ac00)
+309c309
+< **dense1biases (after update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684001000, d:0x7ff684001000)
+---
+> **dense1biases (after update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc823dc0, d:0x7fb64581fe00)
+315c315
+< **dense2::weights (before update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e00000, d:0x7ff684e00000)
+---
+> **dense2::weights (before update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc78d000, d:0x7fb610c2b200)
+320c320
+< **dense2::gweights	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e1e800, d:0x7ff684e1e800)
+---
+> **dense2::gweights	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc7a4180, d:0x7fb610c3fc00)
+325c325
+< **dense2weights (after update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e00000, d:0x7ff684e00000)
+---
+> **dense2weights (after update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc78d000, d:0x7fb610c2b200)
+330,336c330,336
+< **dense2biases (before update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e09e00, d:0x7ff684e09e00)
+< 	0.009921	0.009996	-0.009958	-0.009958	0.009959	0.009882	-0.009958	-0.009958	-0.009958	0.010032	
+< **dense2gbiases	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e28600, d:0x7ff684e28600)
+< 	0.100992	0.101000	-0.900996	0.099004	0.100996	0.100988	0.099004	0.099004	0.099004	0.101003	
+< **dense2biases (after update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e09e00, d:0x7ff684e09e00)
+< 	0.007903	0.007978	0.008048	-0.011937	0.007941	0.007864	-0.011937	-0.011937	-0.011937	0.008014	
+< step:    5, loss: 2.313, accuracy: 0.000%
+---
+> **dense2biases (before update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbd300de0, d:0x7fb610c20e00)
+> 	0.009905	0.009980	-0.009974	-0.009974	0.009943	-0.009974	-0.009974	-0.009974	-0.009974	0.010016	
+> **dense2gbiases	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbc796f30, d:0x7fb610c35c00)
+> 	0.101193	0.101200	-0.900799	0.099201	0.101197	0.099201	0.099201	0.099201	0.099201	0.101204	
+> **dense2biases (after update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbd300de0, d:0x7fb610c20e00)
+> 	0.007882	0.007957	0.008029	-0.011956	0.007920	-0.011956	-0.011956	-0.011956	-0.011956	0.007994	
+> step:    6, loss: 2.311, accuracy: 0.000%
+338c338
+< **dense1::weights (before update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff684200000, d:0x7ff684200000)
+---
+> **dense1::weights (before update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbac32020, d:0x7fb5f8800000)
+343c343
+< **dense1::gweights	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff685000000, d:0x7ff685000000)
+---
+> **dense1::gweights	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbb52ae50, d:0x7fb5f9000000)
+348c348
+< **dense1weights (after update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff684200000, d:0x7ff684200000)
+---
+> **dense1weights (after update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbac32020, d:0x7fb5f8800000)
+353c353
+< **dense1biases (before update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684001000, d:0x7ff684001000)
+---
+> **dense1biases (before update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc823dc0, d:0x7fb64581fe00)
+358c358
+< **dense1gbiases	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684007200, d:0x7ff684007200)
+---
+> **dense1gbiases	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc1cbc80, d:0x7fb64582ac00)
+363c363
+< **dense1biases (after update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684001000, d:0x7ff684001000)
+---
+> **dense1biases (after update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc823dc0, d:0x7fb64581fe00)
+369c369
+< **dense2::weights (before update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e00000, d:0x7ff684e00000)
+---
+> **dense2::weights (before update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc78d000, d:0x7fb610c2b200)
+374c374
+< **dense2::gweights	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e1e800, d:0x7ff684e1e800)
+---
+> **dense2::gweights	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc7a4180, d:0x7fb610c3fc00)
+379c379
+< **dense2weights (after update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e00000, d:0x7ff684e00000)
+---
+> **dense2weights (after update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc78d000, d:0x7fb610c2b200)
+384,390c384,390
+< **dense2biases (before update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e09e00, d:0x7ff684e09e00)
+< 	0.007903	0.007978	0.008048	-0.011937	0.007941	0.007864	-0.011937	-0.011937	-0.011937	0.008014	
+< **dense2gbiases	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e28600, d:0x7ff684e28600)
+< 	0.100789	-0.899204	0.100803	0.098809	0.100792	0.100785	0.098809	0.098809	0.098809	0.100800	
+< **dense2biases (after update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e09e00, d:0x7ff684e09e00)
+< 	0.005889	0.025943	0.006035	-0.013911	0.005927	0.005850	-0.013911	-0.013911	-0.013911	0.006000	
+< step:    6, loss: 2.295, accuracy: 0.000%
+---
+> **dense2biases (before update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbd300de0, d:0x7fb610c20e00)
+> 	0.007882	0.007957	0.008029	-0.011956	0.007920	-0.011956	-0.011956	-0.011956	-0.011956	0.007994	
+> **dense2gbiases	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbc796f30, d:0x7fb610c35c00)
+> 	0.100988	-0.899004	0.101003	0.099004	0.100992	0.099004	0.099004	0.099004	0.099004	0.100999	
+> **dense2biases (after update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbd300de0, d:0x7fb610c20e00)
+> 	0.005865	0.025919	0.006011	-0.013934	0.005903	-0.013934	-0.013934	-0.013934	-0.013934	0.005976	
+> step:    7, loss: 2.293, accuracy: 0.000%
+392c392
+< **dense1::weights (before update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff684200000, d:0x7ff684200000)
+---
+> **dense1::weights (before update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbac32020, d:0x7fb5f8800000)
+397c397
+< **dense1::gweights	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff685000000, d:0x7ff685000000)
+---
+> **dense1::gweights	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbb52ae50, d:0x7fb5f9000000)
+402c402
+< **dense1weights (after update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff684200000, d:0x7ff684200000)
+---
+> **dense1weights (after update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbac32020, d:0x7fb5f8800000)
+407c407
+< **dense1biases (before update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684001000, d:0x7ff684001000)
+---
+> **dense1biases (before update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc823dc0, d:0x7fb64581fe00)
+412c412
+< **dense1gbiases	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684007200, d:0x7ff684007200)
+---
+> **dense1gbiases	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc1cbc80, d:0x7fb64582ac00)
+417c417
+< **dense1biases (after update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684001000, d:0x7ff684001000)
+---
+> **dense1biases (after update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc823dc0, d:0x7fb64581fe00)
+423c423
+< **dense2::weights (before update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e00000, d:0x7ff684e00000)
+---
+> **dense2::weights (before update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc78d000, d:0x7fb610c2b200)
+428c428
+< **dense2::gweights	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e1e800, d:0x7ff684e1e800)
+---
+> **dense2::gweights	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc7a4180, d:0x7fb610c3fc00)
+433c433
+< **dense2weights (after update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e00000, d:0x7ff684e00000)
+---
+> **dense2weights (after update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc78d000, d:0x7fb610c2b200)
+438,444c438,444
+< **dense2biases (before update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e09e00, d:0x7ff684e09e00)
+< 	0.005889	0.025943	0.006035	-0.013911	0.005927	0.005850	-0.013911	-0.013911	-0.013911	0.006000	
+< **dense2gbiases	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e28600, d:0x7ff684e28600)
+< 	0.100582	0.102620	0.100597	-0.901389	0.100586	0.100579	0.098611	0.098611	0.098611	0.100594	
+< **dense2biases (after update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e09e00, d:0x7ff684e09e00)
+< 	0.003880	0.023893	0.004025	0.004092	0.003918	0.003841	-0.015880	-0.015880	-0.015880	0.003991	
+< step:    7, loss: 2.317, accuracy: 0.000%
+---
+> **dense2biases (before update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbd300de0, d:0x7fb610c20e00)
+> 	0.005865	0.025919	0.006011	-0.013934	0.005903	-0.013934	-0.013934	-0.013934	-0.013934	0.005976	
+> **dense2gbiases	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbc796f30, d:0x7fb610c35c00)
+> 	0.100781	0.102822	0.100795	-0.901195	0.100785	0.098805	0.098805	0.098805	0.098805	0.100792	
+> **dense2biases (after update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbd300de0, d:0x7fb610c20e00)
+> 	0.003852	0.023865	0.003998	0.004064	0.003890	-0.015908	-0.015908	-0.015908	-0.015908	0.003963	
+> step:    8, loss: 2.315, accuracy: 0.000%
+446c446
+< **dense1::weights (before update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff684200000, d:0x7ff684200000)
+---
+> **dense1::weights (before update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbac32020, d:0x7fb5f8800000)
+451c451
+< **dense1::gweights	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff685000000, d:0x7ff685000000)
+---
+> **dense1::gweights	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbb52ae50, d:0x7fb5f9000000)
+456c456
+< **dense1weights (after update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff684200000, d:0x7ff684200000)
+---
+> **dense1weights (after update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbac32020, d:0x7fb5f8800000)
+461c461
+< **dense1biases (before update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684001000, d:0x7ff684001000)
+---
+> **dense1biases (before update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc823dc0, d:0x7fb64581fe00)
+466c466
+< **dense1gbiases	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684007200, d:0x7ff684007200)
+---
+> **dense1gbiases	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc1cbc80, d:0x7fb64582ac00)
+471c471
+< **dense1biases (after update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684001000, d:0x7ff684001000)
+---
+> **dense1biases (after update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc823dc0, d:0x7fb64581fe00)
+477c477
+< **dense2::weights (before update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e00000, d:0x7ff684e00000)
+---
+> **dense2::weights (before update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc78d000, d:0x7fb610c2b200)
+482c482
+< **dense2::gweights	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e1e800, d:0x7ff684e1e800)
+---
+> **dense2::gweights	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc7a4180, d:0x7fb610c3fc00)
+487c487
+< **dense2weights (after update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e00000, d:0x7ff684e00000)
+---
+> **dense2weights (after update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc78d000, d:0x7fb610c2b200)
+492,498c492,498
+< **dense2biases (before update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e09e00, d:0x7ff684e09e00)
+< 	0.003880	0.023893	0.004025	0.004092	0.003918	0.003841	-0.015880	-0.015880	-0.015880	0.003991	
+< **dense2gbiases	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e28600, d:0x7ff684e28600)
+< 	0.100382	-0.897589	0.100396	0.100403	0.100385	0.100378	0.098418	0.098418	0.098418	0.100393	
+< **dense2biases (after update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e09e00, d:0x7ff684e09e00)
+< 	0.001876	0.041813	0.002021	0.002087	0.001914	0.001837	-0.017845	-0.017845	-0.017845	0.001986	
+< step:    8, loss: 2.279, accuracy: 100.000%
+---
+> **dense2biases (before update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbd300de0, d:0x7fb610c20e00)
+> 	0.003852	0.023865	0.003998	0.004064	0.003890	-0.015908	-0.015908	-0.015908	-0.015908	0.003963	
+> **dense2gbiases	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbc796f30, d:0x7fb610c35c00)
+> 	0.100579	-0.897388	0.100593	0.100600	0.100583	0.098611	0.098611	0.098611	0.098611	0.100590	
+> **dense2biases (after update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbd300de0, d:0x7fb610c20e00)
+> 	0.001844	0.041781	0.001989	0.002056	0.001882	-0.017876	-0.017876	-0.017876	-0.017876	0.001954	
+> step:    9, loss: 2.277, accuracy: 100.000%
+500c500
+< **dense1::weights (before update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff684200000, d:0x7ff684200000)
+---
+> **dense1::weights (before update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbac32020, d:0x7fb5f8800000)
+505c505
+< **dense1::gweights	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff685000000, d:0x7ff685000000)
+---
+> **dense1::gweights	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbb52ae50, d:0x7fb5f9000000)
+510c510
+< **dense1weights (after update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x7ff684200000, d:0x7ff684200000)
+---
+> **dense1weights (after update)	: (784000)	.n: 1, .c: 1, .h: 784, .w: 1000	(h:0x55cfbac32020, d:0x7fb5f8800000)
+515c515
+< **dense1biases (before update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684001000, d:0x7ff684001000)
+---
+> **dense1biases (before update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc823dc0, d:0x7fb64581fe00)
+520c520
+< **dense1gbiases	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684007200, d:0x7ff684007200)
+---
+> **dense1gbiases	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc1cbc80, d:0x7fb64582ac00)
+525c525
+< **dense1biases (after update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x7ff684001000, d:0x7ff684001000)
+---
+> **dense1biases (after update)	: (1000)	.n: 1, .c: 1, .h: 1000, .w: 1	(h:0x55cfbc823dc0, d:0x7fb64581fe00)
+531c531
+< **dense2::weights (before update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e00000, d:0x7ff684e00000)
+---
+> **dense2::weights (before update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc78d000, d:0x7fb610c2b200)
+536c536
+< **dense2::gweights	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e1e800, d:0x7ff684e1e800)
+---
+> **dense2::gweights	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc7a4180, d:0x7fb610c3fc00)
+541c541
+< **dense2weights (after update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x7ff684e00000, d:0x7ff684e00000)
+---
+> **dense2weights (after update)	: (10000)	.n: 1, .c: 1, .h: 1000, .w: 10	(h:0x55cfbc78d000, d:0x7fb610c2b200)
+546,552c546,552
+< **dense2biases (before update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e09e00, d:0x7ff684e09e00)
+< 	0.001876	0.041813	0.002021	0.002087	0.001914	0.001837	-0.017845	-0.017845	-0.017845	0.001986	
+< **dense2gbiases	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e28600, d:0x7ff684e28600)
+< 	0.100174	0.104256	0.100189	0.100195	-0.899822	0.100170	0.098218	0.098218	0.098218	0.100185	
+< **dense2biases (after update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x7ff684e09e00, d:0x7ff684e09e00)
+< 	-0.000123	0.039732	0.000022	0.000088	0.019870	-0.000162	-0.019805	-0.019805	-0.019805	-0.000013	
+< step:    9, loss: 2.301, accuracy: 0.000%
+---
+> **dense2biases (before update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbd300de0, d:0x7fb610c20e00)
+> 	0.001844	0.041781	0.001989	0.002056	0.001882	-0.017876	-0.017876	-0.017876	-0.017876	0.001954	
+> **dense2gbiases	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbc796f30, d:0x7fb610c35c00)
+> 	0.100370	0.104460	0.100385	0.100391	-0.899626	0.098410	0.098410	0.098410	0.098410	0.100381	
+> **dense2biases (after update)	: (10)	.n: 1, .c: 1, .h: 10, .w: 1	(h:0x55cfbd300de0, d:0x7fb610c20e00)
+> 	-0.000159	0.039696	-0.000014	0.000053	0.019834	-0.019840	-0.019840	-0.019840	-0.019840	-0.000049	
+> step:   10, loss: 2.299, accuracy: 0.000%
